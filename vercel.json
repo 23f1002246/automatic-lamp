@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "functions": {
+    "api/build.py": {
+      "runtime": "python3.11"
+    },
+    "api/revise.py": {
+      "runtime": "python3.11"
+    }
+  }
+}
