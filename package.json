@@ -1,0 +1,24 @@
+{
+  "name": "llm-code-deployment",
+  "version": "1.0.0",
+  "description": "Automated LLM-powered code deployment system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-iitm:23f1002246/automatic-lamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
